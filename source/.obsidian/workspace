@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "16b72a42f77d0a5c",
+    "type": "split",
+    "children": [
+      {
+        "id": "924ebe100ea9d41d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "_posts/covid-19-and-the-unexpecteds.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "19d98bff0917891f",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9e3c6506bbd35ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7e7dae10d6db816",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "559acdaad84ea054",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ccf9fafa47fbaf78",
+    "type": "split",
+    "children": [
+      {
+        "id": "911529163d3ab812",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db9c924597e848bd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/covid-19-and-the-unexpecteds.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "924ebe100ea9d41d",
+  "lastOpenFiles": [
+    "_posts/the-feeling-of-coming-back.md",
+    "about/index.md",
+    "_posts/covid-19-and-the-unexpecteds.md",
+    "_drafts/Codeforces-Round-753-Div-3-Tutorial.md",
+    "_drafts/DP-optimize-monotonous-queue.md",
+    "_posts/未命名.md",
+    "_drafts/cmus-tutor.md",
+    "_posts/Codeforces-Round-753-Div-3-Tutorial.md",
+    "_posts/draft.md"
+  ]
+}

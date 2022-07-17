@@ -1,0 +1,17 @@
+mixin postItem(post)
+  if(post)
+    - let hasPhoto = post.photos && post.photos[0]
+    .posts-item(class=post.top ? "posts-item--pintop" : "")
+      h2.posts-item__title(class=hasPhoto ? "posts-item__title--image" : "")
+        a(href=post.path ? url_for(post.path) : '') #{post.title}
+      if hasPhoto
+        img.posts-item__image(src=post.photos[0] alt="post image")
+      if post.date
+        span.post__date #{date(post.date, date_format)}
+      if post.tags && post.tags.data && post.tags.data.length > 0
+        each tag in post.tags.data
+          a(href=url_for(tag.path))
+            span.post__tags #{`#${tag.name}`}
+      if post.excerpt
+        .posts-item__excerpt
+          != post.excerpt

@@ -1,0 +1,119 @@
+.post-view
+
+.post-view__article
+  padding: 0rem 2rem 6rem 2rem
+  overflow-x: hidden
+
+article.post-view__article
+  .article__content
+    h1,h2,h3,h4,h5,h6,p
+      margin: 1em 0
+    h1,h2
+      text-size(m-3)
+    h3
+      text-size(m-2)
+    h4,h5
+      text-size(m-1)
+    h6
+      text-size(s-3)
+    p,li,ol,table,code
+      text-size(s-1)
+    small
+      font-size: 1rem
+    a
+      box-shadow: inset 0 -0.1em 0 $color-black-2
+      transition:all .3s cubic-bezier(.71,0,0,.99)
+      text-decoration: none
+      &:hover
+        box-shadow: inset 0 -0.8em 0 $color-main
+
+    blockquote
+      border-left: 2px solid $color-black-2
+      padding: 0em 2rem
+
+    .gutter
+      width: 3em
+      text-align: center
+      background: #f8f8f8
+      border-right: 1px solid $color-light-gray !important
+
+    code.hljs
+      text-size(s-1)
+      width: 100%
+      overflow-x: scroll
+      max-width: 80rem
+      padding: 0.5em 1em
+      margin: 1em 0
+
+    table
+      code.hljs
+        margin: 0
+
+    code:not(.hljs)
+      text-size(s-1)
+      color: $color-black-2
+      font-weight: bold
+      border: 1px solid $color-main
+      background: $color-white
+      box-shadow: .2em .2em 0 0 $color-main
+      padding: 0.1em 0.4em
+      margin: 0 0.4em
+      vertical-align: bottom
+
+
+    ul,ol
+      text-size(s-2)
+      padding-left: 2em
+      li
+        padding: 0.2em 0
+
+    img
+      width: auto
+      max-width: 100%
+      margin: 2rem 0
+
+    .highlight
+      table
+        width: 100%
+        border: none
+        table-layout: fixed
+        overflow: auto
+        border
+        th,td
+          border: none
+          padding: 0
+
+    table
+      margin: 2rem 0
+      border-spacing: 0
+      border-collapse: collapse
+      border-top: 2px $color-black-2 solid
+      border-bottom: 2px $color-black-2 solid
+      th,td
+        border: 1px $color-light-gray solid
+        padding: 0.3em 1em
+      th
+        border-bottom: 2px $color-black-2 solid
+      td:last-child,th:last-child
+        border-right: none
+      td:first-child,th:first-child
+        border-left: none
+
+    // latex
+    .mjx-chtml
+      font-size: $font-size-s-2;
+
+@media screen and (max-width: $M)
+  .post-view__article
+    padding: 0rem 1rem 6rem 1rem
+    .article__content
+      .mjx-chtml
+        font-size: $font-size-s-1;
+
+@media screen and (max-width: $S)
+  article.post-view__article
+    .article__content
+      .mjx-chtml
+        font-size: $font-size-s-0;
+
+

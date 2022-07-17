@@ -1,0 +1,11 @@
+//- main 是 posts列表页的框架
+include ../mixins/horizontalLine.pug
+
+.main
+  include ./location-bar.pug
+  .main__2-col
+    include ./posts.pug
+    include ./sidebar.pug
+  +horizontalLine('1px')
+  .main__bottom
+    include ./paginator.pug
