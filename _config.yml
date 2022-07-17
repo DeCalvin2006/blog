@@ -98,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: paper
+theme: jelly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -120,9 +120,3 @@ feed:
   icon: icon.png
   autodiscovery: true
   template:
-
-math:
-  engine: "mathjax"
-  mathjax:
-    enable: true
-    cdn: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML
