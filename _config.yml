@@ -3,14 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: AFGXF 的小站
-subtitle: "咕咕咕）"
-description: "一个OIer的博客"
+title: AFGXFの窝
+subtitle: "溪云初起日沉阁，山雨欲来风满楼"
+description: "进来找个座～"
 keywords:
   - OI
   - Blog
 author: Mingjun Yuan
-language: zh-cn
+language: zh-CN
 timezone: "Asia/Shanghai"
 
 # URL
@@ -98,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: jelly
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
