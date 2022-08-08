@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: AFGXFの秘密基地
+title: DeCalvin's Blog
 subtitle: "溪云初起日沉阁，山雨欲来风满楼"
 description: "欢迎光临QwQ"
 keywords:
-author: Mingjun Yuan
+author: DeCalvin2006
 language: zh-CN
 timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://afgxf.netlify.app/
+url: https://decalvin.netlify.app/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -96,15 +96,10 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: "git"
-  repo: git@github.com:AFGXF/afgxf.github.io.git
-  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }})"
-
 feed:
   enable: true
   type: atom

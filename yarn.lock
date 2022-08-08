@@ -1224,10 +1224,10 @@ hexo-server@^3.0.0:
     picocolors "^1.0.0"
     serve-static "^1.14.1"
 
-hexo-theme-landscape@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npmmirror.com/hexo-theme-landscape/-/hexo-theme-landscape-0.0.3.tgz"
-  integrity sha512-b0Di+TUVs4ESrNX4ULEh9uQmADpO6kr10rIJ2OGZM8suNQNFKdxn+vJUjnLfKkCPJAfVmS7/S83KCNYe4tpoNw==
+hexo-theme-fluid@^1.9.2:
+  version "1.9.2"
+  resolved "https://registry.npmmirror.com/hexo-theme-fluid/-/hexo-theme-fluid-1.9.2.tgz#1d4557d8e9f987c7c4737ccfc8b4e2555f3bf16d"
+  integrity sha512-utrmweqHYy0SA2dEd6bJuq0cJ1BiNA9xHl/NG9CmwLE2XYhaxktIsbodgBFx9M27I5jdiqlnOTr5Iav61Vi5Zg==
 
 hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.6.1:
   version "2.6.1"
