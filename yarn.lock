@@ -1111,6 +1111,14 @@ hexo-generator-index@^2.0.0:
     hexo-pagination "1.0.0"
     timsort "^0.3.0"
 
+hexo-generator-search@^2.4.3:
+  version "2.4.3"
+  resolved "https://registry.npmmirror.com/hexo-generator-search/-/hexo-generator-search-2.4.3.tgz#c4f35c8b8429355612dd1cdf5a18de3568166f99"
+  integrity sha512-Z5hfZq2g3np/Tgdp2q9HobfIvU6Pdz89tnTurc1IIq/vW0MHgDynk0Aiv6kvMtKWthnZ5l0iEMT3YLN35NdYwQ==
+  dependencies:
+    nunjucks "^3.0.1"
+    utils-merge "^1.0.0"
+
 hexo-generator-searchdb@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmmirror.com/hexo-generator-searchdb/-/hexo-generator-searchdb-1.4.0.tgz#e6774378d841cbaa6ccbc8206ce14a492b3a115e"
@@ -1801,7 +1809,7 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   resolved "https://registry.npmmirror.com/normalize-path/-/normalize-path-3.0.0.tgz"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
-nunjucks@^3.0.0, nunjucks@^3.1.6, nunjucks@^3.2.1, nunjucks@^3.2.2, nunjucks@^3.2.3:
+nunjucks@^3.0.0, nunjucks@^3.0.1, nunjucks@^3.1.6, nunjucks@^3.2.1, nunjucks@^3.2.2, nunjucks@^3.2.3:
   version "3.2.3"
   resolved "https://registry.npmmirror.com/nunjucks/-/nunjucks-3.2.3.tgz"
   integrity sha512-psb6xjLj47+fE76JdZwskvwG4MYsQKXUtMsPh6U0YMvmyjRtKRFcxnlXGWglNybtNTNVmGdp94K62/+NjF5FDQ==
