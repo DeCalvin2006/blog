@@ -20,30 +20,12 @@ layout: about
 2021 NOIP 二等
 To be continued......
 
-```cpp
-/*
- * Author : $%U%$
- * Date : $%Y%$-$%M%$-$%D%$ $%h%$:$%m%$:$%s%$
- * */
-
-#include <bits/stdc++.h>
-using namespace std;
-int read() {
-  int x = 0, f = 1;
-  char c = getchar();
-  while (c > '9' || c < '0') {
-    if (c == '-')
-      f = -1;
-    c = getchar();
-  }
-  while (c >= '0' && c <= '9') {
-    x = (x << 1) + (x << 3) + c - '0';
-    c = getchar();
-  }
-  return x * f;
-}
-int main() {
-  // TODO: code here
-  return 0;
-}
-```
+# 关于这个博客
+## 搭建方式
+本站使用Netlify托管，由Hexo生成文件。
+由于Netlify有Buildtime限制，所以可能出现一次性更新很多文章的情况。
+## 以后的发展
+- [ ] 买个域名？
+- [ ] 换自己的服务器托管？
+- [ ] To Be Continued...
+%%（停停停，再买东西我就成穷鬼了）%%
