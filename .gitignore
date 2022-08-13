@@ -7,4 +7,4 @@ public/
 .deploy*/
 _multiconfig.yml
 yarn.lock
-source/.obsidian
+source/.obsidian/**
