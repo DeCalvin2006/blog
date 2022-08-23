@@ -69,8 +69,10 @@ bool bfs() {
       }
     }
   }
+  // 如果不能到达t则直接结束算法
   return dep[t] != 0;
 }
+// 返回x这条边的反向边
 inline int get(int x) { return (x & 1) ? x + 1 : x - 1; }
 int dfs(int x, int fl) {
   if (x == t) {
@@ -82,11 +84,12 @@ int dfs(int x, int fl) {
     if (val[i] <= 0) {
       continue;
     }
-    if (dep[v] == dep[x] + 1) {
+    if (dep[v] == dep[x] + 1) { // 每次向深度多1的边走
       int flow = dfs(v, min(fl, val[i]));
       if (flow) {
         val[i] -= flow;
         val[get(i)] += flow;
+        // 如果还有残余流量，则继续增广。
         fl -= flow;
         result += flow;
         if (fl <= 0)
