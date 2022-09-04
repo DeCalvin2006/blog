@@ -1004,7 +1004,13 @@ links:
       title: "linyihdfj",
       intro: "linyihdfj 大佬",
       link: "https://www.cnblogs.com/linyihdfj/",
-      avatar: "images/20220402110712.png"
+      avatar: "images/linyihdfj.png"
+    }
+    - {
+      title: "eggegg的博客",
+      intro: "eggegg!",
+      link: "https://www.luogu.com.cn/blog/eggegg185/",
+      avatar: "images/eggegg.jpg"
     }
 
   # 当成员头像加载失败时，替换为指定图片
