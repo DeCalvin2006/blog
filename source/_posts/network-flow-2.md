@@ -2,9 +2,9 @@
 title: 网络流入门到入土（2）：最大流算法：FordFulkson
 tags:
   - OI
+  - 图论
   - 网络流
   - 算法
-  - 图论
 categories:
   - - OI
     - 图论算法

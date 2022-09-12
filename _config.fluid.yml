@@ -1012,6 +1012,12 @@ links:
       link: "https://www.luogu.com.cn/blog/eggegg185/",
       avatar: "images/eggegg.jpg"
     }
+    - {
+      title: "Deyerong",
+      intro: "Deyerong",
+      link: "https://deyerong.github.io/",
+      avatar: "https://cravatar.cn/avatar/887be49a581d0ed87aa2197eedd873bc"
+    }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
