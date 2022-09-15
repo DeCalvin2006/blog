@@ -10,7 +10,6 @@ layout: about
 
 高一 Oier。不务正业，喜欢 Linux、开源软件、其他有趣的东西。
 
-{% meting "32341845" "netease" "playlist" "autoplay" "mutex:false" "listmaxheight:340px" "preload:none" "theme:#ad7a86"%}
 
 ## 获奖记录
 
