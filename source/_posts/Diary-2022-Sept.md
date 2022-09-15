@@ -6,10 +6,9 @@ tags:
 categories:
   - - Diary
     - 2022
-    - Sept
 top: true
 ---
-这是2020年9月份的日记。
+这是2020年9月份的日记，因为分开有水的嫌疑就合订了。
 <!-- more -->
 # 11th, Sept
 
