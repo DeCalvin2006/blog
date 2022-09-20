@@ -54,3 +54,9 @@ menci、victor、CRZYX、和Cornworld去恰了PizzaCut）可惜我父母不让�
 18号就是CSP-S1了）可是我还是这么拉跨QwQ
 
 CSP-J/S-1  RP++！
+
+# 19th, Sept
+今天ttbb不在家~机房里半颓半卷的（（（
+
+# 20th, Sept
+CSP2022 游记完成～大家可以看Archive里呀～
