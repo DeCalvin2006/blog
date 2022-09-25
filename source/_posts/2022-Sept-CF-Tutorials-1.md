@@ -39,10 +39,7 @@ Blocks: 1 1 2 3 1
 记$f_{p,j}$为奇偶性为$p$的位置上，颜色为 i 的塔的最大高度。
 可得转移方程为
 
-$$
-\text{For }i\text{ in }1\to n,\
-f_{i\bmod 2,color_i}=max(f_{i\bmod2,color_i}+1,f_{i+1\bmod2,color_i})
-$$
+$$\text{For }i\text{ in }1\to n,\ f_{i\bmod 2,color_i}=max(f_{i\bmod2,color_i}+1,f_{i+1\bmod2,color_i})$$
 
 也就是说，每一个位置的最大值有两种情况：
 
