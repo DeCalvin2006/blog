@@ -5,10 +5,9 @@ tags:
   - 题解
   - DP
 categories:
-  - CF题解收录
+  - CF题解合集
 date: 2022-09-26 09:28:33
 ---
-
 
 这是 Codeforces 题解系列（因为实在可能太多了）的第 ② 篇。
 
@@ -20,16 +19,22 @@ date: 2022-09-26 09:28:33
 
 > 状态设计的注意事项。
 
+## Problem
+
 每天可以有三种选择：
 
 - 如果健身房开，则可以选择健身。
 - 如果有比赛，则可以选择打比赛。
 - 可以休息。
-  给出每天的健身房和比赛状态，在不连续两天健身或者打比赛的前提下，求最少休息几天。
+
+给出每天健身房和比赛的状态，在不连续两天健身或者打比赛的前提下，求最少休息几天。
+
+## Solution
 
 考虑将上一天的活动存在状态中。
 $f_{i,j,k}\ (j,k\in\{0,1\})$ 为前 i 天，连续运动 j 天，打比赛 k 天的最小休息天数。
 dfs 转移即可。
+
 ```C++
 #include <bits/stdc++.h>
 using namespace std;
@@ -110,16 +115,23 @@ int main() {
 ```
 
 # 1646 C. Factorials and Powers of Two
-[题面链接](https://codeforces.com/contest/1646/problem/C)(Rating:1500)
-> 其实这不是个dp题。
 
-定义$\text{Powerful Number}$为阶乘或者2的幂。
+[题面链接](https://codeforces.com/contest/1646/problem/C)(Rating:1500)
+
+> 其实这不是个 dp 题。
+
+## Problem
+
+定义$\text{Powerful Number}$为阶乘或者 2 的幂。
 给出一个数$n$，求最少的$\text{Powerful Number}$拆分，或者无解输出$-1$.
 
+## Solution
+
 首先由于二进制拆分，可以得到一定有一个解存在。
-$n\le 10^{12}$,那么这其中的阶乘数只有15个。去掉1和2以后只剩13个。
+$n\le 10^{12}$,那么这其中的阶乘数只有 15 个。去掉 1 和 2 以后只剩 13 个。
 每次枚举减掉一个最大的阶乘数，然后剩下的进行二进制拆分。
 复杂度接近$O(\log_2n)$。
+
 ```c++
 #include <bits/stdc++.h>
 #define int unsigned long long
@@ -183,12 +195,20 @@ signed main() {
 ```
 
 # 665 C. Simple Strings
+
 [题面链接](https://codeforces.com/contest/665/problem/C)(Rating:1300)
-> 这也1300就离谱。
+
+> 这也 1300 就离谱。
+
+## Problem
 
 给出一个字符串，每次可以把一个字符替换为另一个字符。
 求使得每对相邻字符都不同的最小操作次数。输出操作后的字符串。
+
+## Solution
+
 我觉得大概不需要题解了吧。
+
 ```C++
 #include <bits/stdc++.h>
 #include <random>
