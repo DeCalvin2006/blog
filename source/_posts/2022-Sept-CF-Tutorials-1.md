@@ -1,5 +1,5 @@
 ---
-title: 最近CF做题的一些题解①
+title: 最近CF做题的一些题解①:1706B,545C
 tags:
   - Codeforces
   - 题解
@@ -8,10 +8,9 @@ categories:
   - CF题解收录
 date: 2022-09-25 21:28:16
 ---
-
-
 最近做了不少 CF 上的 DP 题（PS：标签事 dp，但是实际上却是各种各样的东西）。
 可能要写很多篇分着写QwQ，争取在9月结束之前写完吧。
+<!-- more -->
 
 # 1706 B. Making Towers
 
