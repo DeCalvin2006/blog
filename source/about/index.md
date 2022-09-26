@@ -14,7 +14,7 @@ layout: about
 - 技术。
 	- C/C++。同时也是我的主力。
 	- Rust。正在准备学习。
-	- JavaScript(Mostly TypeScript)。
+	- JavaScript(Mostly TypeScript)。不是很熟悉，当c/cpp with moudles on web用。
 	- Compilers。
 	- Operating System。闲暇时间学习[xv6-riscv](https://github.com/DeCalvin2006/xv6-riscv)
 - 游戏。
@@ -36,5 +36,4 @@ NOIP 2021 2=(40pts,Unofficial, scores only)
 
 ## 搭建方式
 
-本站使用 Netlify 托管，由 Hexo 生成文件。
-由于 Netlify 有 Buildtime 限制，所以可能出现一次性更新很多文章的情况。
+在[Closure](https://github.com/CRZYX)和HydrogenStudio的支持下，这个博客现在搬到了HydrogenStudio的服务器上！
