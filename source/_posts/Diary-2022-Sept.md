@@ -13,7 +13,7 @@ top: true
 
 ---
 <!-- more -->
-# 11th, Sept
+# 11th
 
 今天csb回来力）聊了音游，打了大雪花，甚至一命过QwQ，csb tql，\%\%\%！
 
@@ -28,7 +28,7 @@ menci、victor、CRZYX、和Cornworld去恰了PizzaCut）可惜我父母不让�
 ---
 感觉今天基本上啥都没干？
 
-# 12th, Sept
+# 12th
 
 今天没课~好耶
 
@@ -49,7 +49,7 @@ menci、victor、CRZYX、和Cornworld去恰了PizzaCut）可惜我父母不让�
 
 就这样。
 
-# 15th, Sept
+# 15th
 上午手搓了一个[Base64](https://github.com/DeCalvin2006/b64)。感觉比起C++和Rust来讲，C真的是太精简有力了。不需要考虑繁杂的语法糖，不需要看文档（要么都是自己写的，要么文档及其简单
 
 最近几天🍬好像不是很开心）感觉他最近总是在训我们。
@@ -68,14 +68,14 @@ menci、victor、CRZYX、和Cornworld去恰了PizzaCut）可惜我父母不让�
 
 CSP-J/S-1  RP++！
 
-# 19th, Sept
+# 19th
 
 今天上午ttbb不在家~机房里半颓半卷的（（（
 
-# 20th, Sept
+# 20th
 CSP2022 游记完成～大家可以看Archive里呀～
 
-# 22nd, Sept
+# 22nd
 今天模拟赛抱0力（大悲
 感觉我们理解的DP不是同一个东西。
 
@@ -93,7 +93,7 @@ CSP2022 游记完成～大家可以看Archive里呀～
 总有人觉得我**应该会**这些东西。
 我\*\*\*。
 
-# 25nd, Sept
+# 25nd
 做了不少CF的DP题，准备写篇联合题解）））
 
 十月一前夕Tang的罕见病症终于又要开始力）
@@ -102,3 +102,12 @@ CSP2022 游记完成～大家可以看Archive里呀～
 > 都不早讨论是吧，都不想报是吧
 
 昨天通关了Neo Cosmos DLC！
+
+# 27nd
+今天上午考试。
+
+感觉没啥事干了。qbxt的课也没多大信心听懂。
+
+假期又双叒叕没了。
+
+希望线上的课能听懂吧。
