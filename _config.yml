@@ -119,21 +119,16 @@ feed:
   autodiscovery: true
   template:
 
-mmedia:
-  aplayer:
-    cdn: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
-    style_cdn: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
-    default:
-  meting:
-    cdn: https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js
-    api:
-    default:
-  dplayer:
-    cdn: https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js
-    style_cdn: https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css
-    hls_cdn: https://cdn.jsdelivr.net/npm/hls.j/dist/hls.min.js
-    dash_cdn: https://cdn.jsdelivr.net/npm/dashjs/dist/dash.all.min.js
-    shaka_dash_cdn: https://cdn.jsdelivr.net/npm/shaka-player/dist/shaka-player.compiled.js
-    flv_cdn: https://cdn.jsdelivr.net/npm/flv.js/dist/flv.min.js
-    webtorrent_cdn: https://cdn.jsdelivr.net/npm/webtorrent/webtorrent.min.js
-    default:
+
+aplayer:
+  meting: true       # MetingJS 支持
+
+hexo-tag-dplayer:
+  cdn:
+    - https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js
+    - https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css
+  default: 
+    api: https://api.prprpr.me/dplayer/
+    loop: yes
+    screenshot: yes
+    # 后面还可以接着写其他默认配置

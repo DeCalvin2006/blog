@@ -37,3 +37,5 @@ NOIP 2021 2=(40pts,Unofficial, scores only)
 ## 搭建方式
 
 在[Closure](https://github.com/CRZYX)和HydrogenStudio的支持下，这个博客现在搬到了HydrogenStudio的服务器上！
+
+{% meting "7564684224" "netease" "playlist" "theme:#FF4081" "mode:circulation" "mutex:true" "listmaxheight:340px" "preload:auto" %}

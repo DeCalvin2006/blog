@@ -960,6 +960,7 @@ about:
     - { class: "iconfont icon-zhihu-fill", link: "https://zhihu.com/people/DeCalvin2006", tip: "Zhihu" }
     - { class: "iconfont icon-mail", link: "mailto:decalvin2006@outlook.com", tip: "Mail Me" }
     - { class: "iconfont icon-bilibili-fill", link: "https://space.bilibili.com/176423380", tip: "Bilibili" }
+    - { class: "iconfont icon-telegram-fill", link: "https://t.me/DeCalvin", tip: "Telegram" }
 
 
 #---------------------------
