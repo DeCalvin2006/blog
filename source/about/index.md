@@ -38,4 +38,4 @@ NOIP 2021 2=(40pts,Unofficial, scores only)
 
 在[Closure](https://github.com/CRZYX)和HydrogenStudio的支持下，这个博客现在搬到了HydrogenStudio的服务器上！
 
-{% meting "7563828904" "netease" "playlist" "theme:#FF4081" "mode:circulation" "mutex:true" "listmaxheight:340px" "preload:auto" %}
+{% meting "7563828904" "netease" "playlist" "theme:#AABBCC" "mode:circulation" "mutex:true" "listmaxheight:340px" "preload:auto" %}
