@@ -8,7 +8,9 @@ categories:
 date: 2022-10-11 10:45:49
 ---
 
-<!-- more -->
+这是 Codeforces 题解 10 月的第 ① 篇。
+
+<!--more-->
 
 # 1107 D. Compression
 
@@ -29,10 +31,8 @@ $$A[i][j]=B[\lceil\frac{i}{x}\rceil][\lceil\frac{j}{x}\rceil]$$
 二维前缀和公式（容斥原理）：
 
 $$
-\begin{align}
-& S[i][j]=S[i-1][j]+S[i][j-1]-S[i-1][j-1]+A[i][j]\\
-& sum((x_1,y_1),(x_2,y_2))=S[x_2][y_2]-S[x_2][y_1-1]-S[x_1-1][y_2]+S[x_1-1][y_1-1]
-\end{align}
+S[i][j]=S[i-1][j]+S[i][j-1]-S[i-1][j-1]+A[i][j]\\
+sum((x_1,y_1),(x_2,y_2))=S[x_2][y_2]-S[x_2][y_1-1]-S[x_1-1][y_2]+S[x_1-1][y_1-1]
 $$
 
 ## Code
