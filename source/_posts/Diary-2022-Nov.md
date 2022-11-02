@@ -7,8 +7,12 @@ categories:
     - 2022
 date: 2022-11-02 17:23:47
 sticky: 100
+index_img: /images/index_img/diaries/2022-11.jpg
+banner_img: /images/index_img/diaries/2022-11.jpg
 ---
-11份的日记。
+
+11 份的日记。
+
 <!--more-->
 
 # 2nd
