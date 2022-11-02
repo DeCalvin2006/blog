@@ -970,7 +970,7 @@ about:
 # Custom Page through `hexo new page`
 #---------------------------
 page:
-  banner_img: /images/default.png
+  banner_img: /images/default.webp
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -981,7 +981,7 @@ page:
 #---------------------------
 page404:
   enable: true
-  banner_img: /images/404.jpg
+  banner_img: /images/404.webp
   banner_img_height: 85
   banner_mask_alpha: 0.3
   # 重定向到首页的延迟(毫秒)
@@ -995,7 +995,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: /images/links.png
+  banner_img: /images/links.webp
   banner_img_height: 60
   banner_mask_alpha: 0.3
   # 友链的成员项

@@ -275,17 +275,25 @@ int main() {
   return 0;
 }
 ```
+
 # 1681 D. Required Length
+
 [题面链接](https://codeforces.com/contest/1681/problem/D) (Rating:1700)
-> 数位DP？食我BFS！
+
+> 数位 DP？食我 BFS！
+
 ## Problem
+
 给出两个数$n,k$，其中$2\le n \le 19,1\le k\le10^{n-1}$。
 每次可以选择$k$中任意一位上的数$k_i$，把$k$变成$k\times k_i$。
 求最少几次操作能把
 
 ## Solution
-考虑BFS转移，用map记下步数即可。
+
+考虑 BFS 转移，用 map 记下步数即可。
+
 ## Code
+
 ```C++
 #include <bits/stdc++.h>
 #define int unsigned long long
@@ -340,4 +348,3 @@ signed main() {
   return 0;
 }
 ```
-
