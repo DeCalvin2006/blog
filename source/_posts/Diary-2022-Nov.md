@@ -6,7 +6,10 @@ categories:
   - - Diary
     - 2022
 date: 2022-11-02 17:23:47
+sticky: 100
 ---
+11份的日记。
+<!--more-->
 
 # 2nd
 
