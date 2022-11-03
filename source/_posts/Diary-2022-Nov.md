@@ -11,7 +11,7 @@ index_img: /images/index_img/diaries/2022-11.jpg
 banner_img: /images/index_img/diaries/2022-11.jpg
 ---
 
-11 份的日记。
+11 月份的日记。
 
 <!--more-->
 
