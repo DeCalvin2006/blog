@@ -40,4 +40,12 @@ NOIP 2021 2=(40pts,Unofficial, scores only)
 
 在[Closure](https://github.com/CRZYX)和 HydrogenStudio 的支持下，这个博客现在搬到了 HydrogenStudio 的服务器上！
 
+## OpenSource
+
+本站完全开源。项目仓库[DeCalvin2006/blog](https://github.com/DeCalvin2006/blog)。欢迎大家提 PR/Issue，共同进步。
+
+## 更新
+
+所有的更新日志会放在[这一篇博客]()里面。
+
 {% meting "7563828904" "netease" "playlist" "theme:#AABBCC" "mode:circulation" "mutex:true" "listmaxheight:340px" "preload:auto" %}
