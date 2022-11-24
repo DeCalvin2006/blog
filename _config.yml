@@ -119,15 +119,14 @@ feed:
   autodiscovery: true
   template:
 
-
 aplayer:
-  meting: true       # MetingJS 支持
+  meting: true # MetingJS 支持
 
 hexo-tag-dplayer:
   cdn:
     - https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js
     - https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css
-  default: 
+  default:
     api: https://api.prprpr.me/dplayer/
     loop: yes
     screenshot: yes

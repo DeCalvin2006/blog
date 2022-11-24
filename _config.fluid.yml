@@ -1,3 +1,4 @@
+---
 #---------------------------
 # Hexo Theme Fluid
 # Author: Fluid-dev
@@ -9,7 +10,6 @@
 # Guide: https://hexo.fluid-dev.com/docs/en/guide/
 # You can get more detailed help from the guide
 #---------------------------
-
 
 #---------------------------
 # 全局
@@ -239,7 +239,7 @@ custom_css:
 
 # 网页访问统计
 # Analysis of website visitors
-web_analytics:  # 网页访问统计
+web_analytics: # 网页访问统计
   enable: false
 
   # 遵循访客浏览器"请勿追踪"的设置，如果开启则不统计其访问
@@ -272,7 +272,7 @@ web_analytics:  # 网页访问统计
   # 51.la 站点统计 ID
   # 51.la analytics
   # See: https://www.51.la/user/site/index
-  woyaola:  # 51.la 站点统计 ID，参见
+  woyaola: # 51.la 站点统计 ID，参见
 
   # 友盟/cnzz 站点统计 web_id
   # cnzz analytics
@@ -315,7 +315,6 @@ lazyload:
 # Icon library, which includes many social icons, does not include those theme dependent, so your can modify link by yourself. See: https://hexo.fluid-dev.com/docs/en/icon/
 iconfont: //at.alicdn.com/t/font_1736178_lbnruvf0jn.css
 
-
 #---------------------------
 # 页头
 # Header
@@ -326,7 +325,7 @@ iconfont: //at.alicdn.com/t/font_1736178_lbnruvf0jn.css
 navbar:
   # 导航栏左侧的标题，为空则按 hexo config 中 `title` 显示
   # The title on the left side of the navigation bar. If empty, it is based on `title` in hexo config
-  blog_title: 
+  blog_title:
 
   # 导航栏毛玻璃特效，实验性功能，可能会造成页面滚动掉帧和抖动，部分浏览器不支持会自动不生效
   # Navigation bar frosted glass special animation. It is an experimental feature
@@ -347,11 +346,20 @@ navbar:
   menu:
     - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
-    - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
+    - {
+        key: "category",
+        link: "/categories/",
+        icon: "iconfont icon-category-fill",
+      }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
-    - { key: "rss", name: "RSS订阅", link: "/atom.xml", icon: "iconfont icon-rss" }
+    - {
+        key: "rss",
+        name: "RSS订阅",
+        link: "/atom.xml",
+        icon: "iconfont icon-rss",
+      }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
@@ -416,7 +424,6 @@ open_graph:
   fb_admins:
   fb_app_id:
 
-
 #---------------------------
 # 页脚
 # Footer
@@ -443,12 +450,11 @@ footer:
     # ICP证号
     icp_text: 粤ICP备2021035441号-7
     # 公安备案号，不填则只显示ICP
-    police_text: 
+    police_text:
     # 公安备案的编号，用于URL跳转查询
-    police_code: 
+    police_code:
     # 公安备案的图片. 为空时不显示备案图片
-    police_icon: 
-
+    police_icon:
 
 #---------------------------
 # 首页
@@ -522,7 +528,6 @@ index:
   post_sticky:
     enable: true
     icon: "iconfont icon-top"
-
 
 #---------------------------
 # 文章页
@@ -646,7 +651,7 @@ post:
 
     # CreativeCommons license
     # Options: BY | BY-SA | BY-ND | BY-NC | BY-NC-SA | BY-NC-ND
-    license: 'BY-NC-SA'
+    license: "BY-NC-SA"
 
     # 显示作者
     author:
@@ -680,7 +685,7 @@ post:
     enable: true
     # 放大后图片链接替换规则，可用于将压缩图片链接替换为原图片链接，如 ['-slim', ''] 是将链接中 `-slim` 移除；如果想使用正则请使用 `re:` 前缀，如 ['re:\\d{3,4}\\/\\d{3,4}\\/', '']
     # The image url replacement when zooming, the feature can be used to replace the compressed image to the original image, eg: ['-slim', ''] removes `-slim` from the image url when zooming; if you want to use regular, use prefix `re:`, eg: ['re:\\d{3,4}\\/\\d{3,4}\\/','']
-    img_url_replace: ['', '']
+    img_url_replace: ["", ""]
 
   # 脚注语法，会在文章底部生成脚注，如果 Markdown 渲染器本身支持，则建议关闭，否则可能会冲突
   # Support footnote syntax, footnotes will be generated at the bottom of the post page. If the Markdown renderer itself supports it, please disable it, otherwise it may conflict
@@ -688,7 +693,7 @@ post:
     enable: true
     # 脚注的节标题，也可以在 front-matter 中通过 `footnote: <h2>Reference</h2>` 这种形式修改单独页面的 header
     # The section title of the footnote, you can also modify the header of a single page in the form of `footnote: <h2>Reference</h2>` in front-matter
-    header: ''
+    header: ""
 
   # 数学公式，开启之前需要更换 Markdown 渲染器，否则复杂公式会有兼容问题，具体请见：https://hexo.fluid-dev.com/docs/guide/##latex-数学公式
   # Mathematical formula. If enable, you need to change the Markdown renderer, see: https://hexo.fluid-dev.com/docs/en/guide/#math
@@ -716,7 +721,7 @@ post:
     specific: false
 
     # See: http://mermaid-js.github.io/mermaid/
-    options: { theme: 'default' }
+    options: { theme: "default" }
 
   # 评论插件
   # Comment plugin
@@ -726,7 +731,6 @@ post:
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus
     type: giscus
-
 
 #---------------------------
 # 评论插件
@@ -768,9 +772,9 @@ gitalk:
   clientSecret:
   repo:
   owner:
-  admin: ['name']
+  admin: ["name"]
   language: zh-CN
-  labels: ['Gitalk']
+  labels: ["Gitalk"]
   perPage: 10
   pagerDirection: last
   distractionFreeMode: false
@@ -790,14 +794,14 @@ valine:
   appKey:
   path: window.location.pathname
   placeholder:
-  avatar: 'retro'
-  meta: ['nick', 'mail', 'link']
+  avatar: "retro"
+  meta: ["nick", "mail", "link"]
   requiredFields: []
   pageSize: 10
-  lang: 'zh-CN'
+  lang: "zh-CN"
   highlight: false
   recordIP: false
-  serverURLs: ''
+  serverURLs: ""
   emojiCDN:
   emojiMaps:
   enableQQ: false
@@ -807,12 +811,12 @@ valine:
 # Derived from Valine, with self-hosted service and new features
 # See: https://waline.js.org/
 waline:
-  serverURL: ''
+  serverURL: ""
   path: window.location.pathname
-  meta: ['nick', 'mail', 'link']
-  requiredMeta: ['nick']
-  lang: 'zh-CN'
-  emoji: ['https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo']
+  meta: ["nick", "mail", "link"]
+  requiredMeta: ["nick"]
+  lang: "zh-CN"
+  emoji: ["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"]
   dark: 'html[data-user-color-scheme="dark"]'
   wordLimit: 0
   pageSize: 10
@@ -822,15 +826,15 @@ waline:
 # Based on third-party service, insufficient support for regions outside China
 # http://changyan.kuaizhan.com
 changyan:
-  appid: ''
-  appkey: ''
+  appid: ""
+  appkey: ""
 
 # 来必力 Livere
 # 基于第三方的服务
 # Based on third-party service
 # See: https://www.livere.com
 livere:
-  uid: ''
+  uid: ""
 
 # Remark42
 # 需要自托管服务端
@@ -841,7 +845,7 @@ remark42:
   site_id:
   max_shown_comments: 10
   locale: zh
-  components: ['embed']
+  components: ["embed"]
 
 # Twikoo
 # 基于腾讯云开发
@@ -887,7 +891,6 @@ archive:
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
-
 #---------------------------
 # 分类页
 # Category Page
@@ -916,7 +919,6 @@ category:
   # The maximum number of posts in a single category. If the limit is exceeded, it will be displayed More. If 0 no limit
   post_limit: 10
 
-
 #---------------------------
 # 标签页
 # Tag Page
@@ -933,7 +935,6 @@ tag:
     start_color: "#0f0f0f"
     end_color: "#808080"
 
-
 #---------------------------
 # 关于页
 # About Page
@@ -949,12 +950,31 @@ about:
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
-    - { class: "iconfont icon-github-fill", link: "https://github.com/DeCalvin2006", tip: "GitHub" }
-    - { class: "iconfont icon-zhihu-fill", link: "https://zhihu.com/people/DeCalvin2006", tip: "Zhihu" }
-    - { class: "iconfont icon-mail", link: "mailto:decalvin2006@outlook.com", tip: "Mail Me" }
-    - { class: "iconfont icon-bilibili-fill", link: "https://space.bilibili.com/176423380", tip: "Bilibili" }
-    - { class: "iconfont icon-telegram-fill", link: "https://t.me/DeCalvin", tip: "Telegram" }
-
+    - {
+        class: "iconfont icon-github-fill",
+        link: "https://github.com/DeCalvin2006",
+        tip: "GitHub",
+      }
+    - {
+        class: "iconfont icon-zhihu-fill",
+        link: "https://zhihu.com/people/DeCalvin2006",
+        tip: "Zhihu",
+      }
+    - {
+        class: "iconfont icon-mail",
+        link: "mailto:decalvin2006@outlook.com",
+        tip: "Mail Me",
+      }
+    - {
+        class: "iconfont icon-bilibili-fill",
+        link: "https://space.bilibili.com/176423380",
+        tip: "Bilibili",
+      }
+    - {
+        class: "iconfont icon-telegram-fill",
+        link: "https://t.me/DeCalvin",
+        tip: "Telegram",
+      }
 
 #---------------------------
 # 自定义页
@@ -967,7 +987,6 @@ page:
   banner_img: /images/default.webp
   banner_img_height: 60
   banner_mask_alpha: 0.3
-
 
 #---------------------------
 # 404页
@@ -982,7 +1001,6 @@ page404:
   # Delay in redirecting to home page (milliseconds)
   redirect_delay: 5000
 
-
 #---------------------------
 # 友链页
 # Links Page
@@ -996,23 +1014,23 @@ links:
   # Member item of page
   items:
     - {
-      title: "linyihdfj",
-      intro: "linyihdfj 大佬",
-      link: "https://www.cnblogs.com/linyihdfj/",
-      avatar: "images/linyihdfj.webp"
-    }
+        title: "linyihdfj",
+        intro: "linyihdfj 大佬",
+        link: "https://www.cnblogs.com/linyihdfj/",
+        avatar: "images/linyihdfj.webp",
+      }
     - {
-      title: "eggegg的博客",
-      intro: "eggegg!",
-      link: "https://www.luogu.com.cn/blog/eggegg185/",
-      avatar: "images/eggegg.webp"
-    }
+        title: "eggegg的博客",
+        intro: "eggegg!",
+        link: "https://www.luogu.com.cn/blog/eggegg185/",
+        avatar: "images/eggegg.webp",
+      }
     - {
-      title: "Deyerong",
-      intro: "Deyerong",
-      link: "https://deyerong.github.io/",
-      avatar: "https://cravatar.cn/avatar/887be49a581d0ed87aa2197eedd873bc"
-    }
+        title: "Deyerong",
+        intro: "Deyerong",
+        link: "https://deyerong.github.io/",
+        avatar: "https://cravatar.cn/avatar/887be49a581d0ed87aa2197eedd873bc",
+      }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
@@ -1022,7 +1040,7 @@ links:
   # Custom content at the bottom of the links
   custom:
     enable: true
-    content: '可以通过右下角的聊天室联系我加友链。'
+    content: "可以通过右下角的聊天室联系我加友链。"
 
   # 评论插件
   # Comment plugin
@@ -1032,7 +1050,6 @@ links:
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus
     type: giscus
-
 
 #---------------------------
 # 以下是配置 JS CSS 等静态资源的 URL 前缀，可以自定义成 CDN 地址，
