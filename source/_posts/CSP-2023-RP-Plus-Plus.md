@@ -3,6 +3,7 @@ title: CSP-S 2022 初赛游记
 date: 2022-09-20 18:54:10
 tags:
 	- CSP2022
+	- 游记
 	- 初赛
 categories:
 	- 蒟蒻的OI生活
